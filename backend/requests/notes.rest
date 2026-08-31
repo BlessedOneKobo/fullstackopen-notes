@@ -2,17 +2,17 @@
 GET http://localhost:3001/api/notes
 
 ### Get single note
-GET http://localhost:3001/api/notes/1
+GET http://localhost:3001/api/notes/6a94e13dc20356f2b60543d9
 
 ### Delete single note
-DELETE http://localhost:3001/api/notes/2
+DELETE http://localhost:3001/api/notes/6a94dfc89e49842bed047a23
     
 ### Create new note
 POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "VS code rest client is a pretty handy tool",
+    "content": "I am slowly getting the hang of backend development",
     "important": true
 }
 
